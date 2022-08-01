@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Happy Birthday,Dear Jiayi!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.imgur.com/E1fS5Mi.png">
+</head>
+
+<body onclick="toggleConfetti();">
+    <div class="container">
+        <div class="row">
+            <div class="loader">
+                <button id="play">点击就开始咯</button>
+            </div>
+        </div>
+    </div>
+    <audio class="song" controls loop>
+        <source src="music.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <canvas id="confetti"></canvas>
+    <div class="main">
+        <div class="container pt-5">
+            <div class="row">
+
+                <div class="col-12 col-xl-6 mx-auto">
+                    <img src="img/banner.png" alt="">
+                </div>
+
+                <div class="col-12  text-center">
+                    <div id="name" class="area">Dear Jiayi</div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <div class="type-wrap">
+                        <div id="typed-strings" class="typing">
+                            <h2>Happy Birthday Jiayi!</h2>
+                            <h2>今天是个特别的日子~</h2>
+                            <h2>不是因为清晨明媚的朝阳</h2>
+                            <h2>也不是因为午后湛蓝的天空</h2>
+                            <h2>亦或是傍晚醉人的落日</h2>
+                            <h2>而全是因为特别的你！</h2>
+                            <h2>我也时常感到困惑</h2>
+                            <h2>直到我遇到了像你这样的人</h2>
+                            <h2>And everything makes sense~</h2>
+                            <h2>愿你未来的日子里</h2>
+                            <h2>烟火向星辰,所愿皆成真</h2>
+                            <h2>每一天都奔走在自己的热爱里~</h2>
+                            <h2>快乐不止生日！</h2>
+                            <h2>-潇华.2022/8/16</h2>
+                        </div>
+                        <span id="typed" style="white-space:pre;"></span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-xl-3 cake">
+                    <img src="img/cake.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <img src="img/Balloon-Border.png" width="100%" class="balloon-border">
+    </div>
+</body>
+<script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://cdn.sujalgoel.engineer/script/confetti.js"></script>
+
+</html>
